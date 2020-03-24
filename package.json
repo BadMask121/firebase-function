@@ -1,0 +1,22 @@
+{
+	"scripts": {
+		"lint": "tslint --project tsconfig.json",
+		"build": "tsc --build ./functions/tsconfig.json",
+		"serve": "npm run build && firebase serve --only functions",
+		"shell": "npm run build && firebase functions:shell",
+		"start": "npm run shell",
+		"deploy": "firebase deploy --only functions",
+		"logs": "firebase functions:log"
+	},
+	"dependencies": {
+		"camelcase": "^5.3.1",
+		"firebase-admin": "^8.10.0",
+		"firebase-functions": "^3.5.0",
+		"glob": "^7.1.6",
+		"lodash": "^4.17.15",
+		"moment": "^2.24.0"
+	},
+	"devDependencies": {
+		"@firebase/app-types": "^0.6.0"
+	}
+}

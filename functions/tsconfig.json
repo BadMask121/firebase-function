@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"lib": ["es2015"],
+		"module": "CommonJS",
+		"noImplicitReturns": true,
+		"noImplicitAny": false,
+		"noUnusedLocals": false,
+		"typeRoots": ["./node_modules/@types"],
+		"outDir": "dist",
+		"sourceMap": true,
+		"types": ["node"],
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"baseUrl": "src",
+		"paths": {
+			"src": ["src"]
+			// "*": ["src"]
+		},
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true
+		// "skipDefaultLibCheck": true
+	},
+	"compileOnSave": true,
+	"include": ["index.ts", "src", "config.ts"],
+	"exclude": [
+		"typings/browser.d.ts",
+		"build",
+		"dist",
+		"typings/browser",
+		"node_modules"
+	]
+}
