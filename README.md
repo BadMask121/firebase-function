@@ -1,6 +1,6 @@
 #### We are using firebase cloud functions with Express to make api calls
 
-all endpoint are keep under the `./src/api/*` folder to create an api please name the files with `.f.ts` prefix because only those files will be defined as a cloud functions
+all endpoint are keep under the `./src/api/**` folder to create an api please name the files with `.f.ts` prefix because only those files will be defined as a cloud functions
 
 endpoint will be named in camelcase, which are a concatnation of the relative folders of `\*.f.ts` and the filename
 e.g `http://localhost:5001/{PROJECT-ID}/us-central1/authLogin`
