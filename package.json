@@ -14,7 +14,7 @@
 		"firebase-functions": "^3.5.0",
 		"glob": "^7.1.6",
 		"lodash": "^4.17.15",
-		"moment": "^2.24.0"
+		"moment": "^2.29.2"
 	},
 	"devDependencies": {
 		"@firebase/app-types": "^0.6.0"
